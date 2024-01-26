@@ -63,11 +63,11 @@ a:hover{
 .section1-text {
   position: absolute;
   font-size: 40px;
-  top: 154px;
-  left: 224px;
+ 
   line-height: 30px;
   font-family: 'EB Garamond';
-  letter-spacing: 12px;
+  letter-spacing: 13px;
+  transform: translate(201px, 92px);
 
 }
 
@@ -77,13 +77,14 @@ a:hover{
     text-align: center;
 }
 .left-image {
-  width: 38%;
+  width: 35%;
   height: 400px;
   background: url(./images/flower.png) no-repeat;
   background-size: 268px 400px;
+  background-position-x: -8px;
 }
 .right-image {
-  width: 64%;
+  width: 65%;
   height: 400px;
   background: url(./images/image1.png) no-repeat;
   margin-left: 50px;
@@ -93,8 +94,7 @@ a:hover{
 .left-image-text1 {
   color: white;
   position: absolute;
-  top: 738px;
-  left: 83px;
+  transform: translate(35px, 67px);
   letter-spacing: 8px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
@@ -102,8 +102,7 @@ a:hover{
 .left-image-text2 {
   color: white;
   position: absolute;
-  top: 839px;
-  left: 91px;
+  transform: translate(42px, 167px);
   display: flex;
   letter-spacing: 2px;
   font-size: 14px;
@@ -115,8 +114,7 @@ a:hover{
   color: white;
   border-color: white;
   background: none;
-  top: 946px;
-  left: 83px;
+  transform: translate(-84px, 269px);
   position: absolute;
   padding: 8px 62px;
   border-style: solid;
