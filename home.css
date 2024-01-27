@@ -1,45 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
 
 body {
   margin: 0;
-  
+  height: 100%;
   max-width: 825px;
   
 }
 
 header {
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto 1fr;
   max-width: 825px;
   margin: 0;
-  padding: 0;
+ 
   padding-top: 29px;
-  padding-bottom: 29px;
+
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1000;
-  font-family:Helvetica;
+  font-family: Helvetica;
+  height: 42px; */
+
+  width: 825px;
+  margin: 0;
+ 
+  padding-top: 29px;
+  display:inline-block !important;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  font-family: Helvetica;
+  height: 42px;
+ 
+
+
 }
 
 .title {
+  /* color: #A8904E;
+  font-size: 11px;
+  padding-left: 90px; */
+
   color: #A8904E;
   font-size: 11px;
   padding-left: 90px;
+  float: left;
+
+
 }
 
 .navbar {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
   font-size: 11px;
-  margin-right: 30px;
-  
+  margin-right: 25px;
+  font-family: Helvetica, Arial, sans-serif; */
+
+  font-size: 11px;
+  float: right;
+  margin-right: 20px;
+   font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
+  /* text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  font-family: Helvetica, Arial, sans-serif; */
   text-decoration: none;
   color: black;
   padding: 0 20px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -62,12 +97,11 @@ a:hover{
 
 .section1-text {
   position: absolute;
-  font-size: 40px;
- 
+  font-size: 42px;
   line-height: 30px;
   font-family: 'EB Garamond';
   letter-spacing: 13px;
-  transform: translate(201px, 92px);
+  transform: translate(215px, 105px);
 
 }
 
@@ -114,7 +148,7 @@ a:hover{
   color: white;
   border-color: white;
   background: none;
-  transform: translate(-84px, 269px);
+  transform: translate(-84px, 284px);
   position: absolute;
   padding: 8px 62px;
   border-style: solid;
@@ -122,17 +156,77 @@ a:hover{
   font-size: 10px;
 }
 
+.section5 {
+  display: grid;
+  grid-template-columns: 239.75px 1fr;
+  gap: 50px;
+  margin-top:45px;
+}
+
+.left-image5 {
+  width: 100%;
+  height: 400px;
+  background: url(./images/flower.png) no-repeat;
+
+    
+  background-size: cover;
+  background-position: center;
+ 
+  margin-left: 45px;
+
+}
+
+.right-image5 {
+  width: 445.25px;
+  height: 400px;
+  background: url(./images/image1.png) no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+}
+
+.left-image-text15,
+.left-image-text25,
+.left-image-button5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.left-image-text15 {
+  font-size: 23px;
+  letter-spacing: 8px;
+  transform: translate(30px, 67px);
+}
+
+.left-image-text25 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 2.0;
+  transform: translate(31px, 126px);
+}
+
+.left-image-button5 {
+  font-size: 10px;
+  padding: 8px 62px;
+  border: 1px solid white;
+  position: absolute;
+  transform: translate(29px, 143px);
+}
+
+
 .section3 {
-  margin: 100px;
-  text-align: center;
-  height: 196px;
+ width: 825px;
+ height: 446px;
   font-family: Times New Roman;
-  margin-bottom: 150px;
+  
 }
 
 .section3 img {
   width: 31px;
   height: 31px;
+  transform: translate(400px, 71px);
  
 }
 
@@ -140,7 +234,10 @@ a:hover{
   line-height: 1.4;
   letter-spacing: 2.5px;
   font-size: 25px;
+  text-align: center;
+  transform: translate(3px, 78px);
 }
+
 
 /* .section3-testimonial p{
   font-size: 30px;
@@ -151,22 +248,22 @@ a:hover{
   font-size: 11px;
   letter-spacing: 0.5px;
   padding-top: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-
-  transform: translate(-4px, 10px);
+  font-family: 'Roboto';
+  transform: translate(356px, 91px);
 }
 
 .section4 {
   display: flex;
   background: url(./images/image2.png) no-repeat;
-  background-position-y: 54px;
+  background-position-y: 124px;
   color: white;
   text-align: center;
   background-size: 780px 668px;
   min-height: 480px;
   background-attachment: fixed;
-  margin-left: 45px;
-  margin-right: 45px;
+  background-position-x: 5px;
+  margin-left: 48px;
+
 }
 
 
@@ -176,7 +273,7 @@ a:hover{
   width: 229px;
   height: 408px;
   background: url(./images/flower.png) center/cover no-repeat;
-  transform: translate(466px, 22px);
+  transform: translate(477px, 22px);
   background-size: 231px 407px;
 }
 
@@ -188,6 +285,7 @@ a:hover{
   /* left: 50px; */
   font-size: 25px;
   transform: translate(37px, 64px);
+  font-family: 'EB Garamond';
 
 }
 
@@ -202,7 +300,7 @@ a:hover{
   color: white;
   position: absolute;
   top: 171px;
-  left: 49px;
+  left: 47px;
   display: flex;
   letter-spacing: 3px;
   font-size: 15px;
@@ -216,9 +314,9 @@ a:hover{
   font-size: 12px;
   background: none;
   top: 288px;
-  left: 38px;
+  left: 45px;
   position: absolute;
-  padding: 8px 45px;
+  padding: 8px 35px;
   border-style: solid;
   border-width: 1px;
 }
@@ -234,6 +332,7 @@ footer {
   margin-top: 60px;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 30px;
+  width:745px;
 }
 
 .footer-section1{
@@ -241,6 +340,7 @@ footer {
   /* border-right: white solid 1px; */
   margin-left: 60px;
   height: 60px;
+  transform: translate(-6px, -2px);
  
  
   
@@ -250,7 +350,7 @@ footer {
   padding-right: 10px;
   /* border-right: white solid 1px; */
   height: 60px;
-  margin-left: 10px;
+  margin-left: 14px;
   
 }
 
