@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-
-
 body {
   margin: 0;
   height: 100%;
@@ -10,23 +8,10 @@ body {
 }
 
 header {
-  /* display: grid;
-  grid-template-columns: auto 1fr;
-  max-width: 825px;
-  margin: 0;
- 
-  padding-top: 29px;
-
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 1000;
-  font-family: Helvetica;
-  height: 42px; */
 
   width: 825px;
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
   padding-top: 29px;
   display:inline-block !important;
   position: sticky;
@@ -45,12 +30,9 @@ header span{
   margin-left: 2px;
 }
 .title {
-  /* color: #A8904E;
-  font-size: 11px;
-  padding-left: 90px; */
 
   color: #A8904E;
-  font-size: 11px;
+  font-size: 13px;
   padding-left: 90px;
   float: left;
 
@@ -58,26 +40,15 @@ header span{
 }
 
 .navbar {
-  /* display: flex;
-  justify-content: flex-end;
-  font-size: 11px;
-  margin-right: 25px;
-  font-family: Helvetica, Arial, sans-serif; */
 
-  font-size: 11px;
+  font-size: 13px;
   float: right;
-  margin-right: 20px;
-   
-
-                                                
+  margin-right: 20px;                                              
    ;
 }
 
 a {
-  /* text-decoration: none;
-  color: black;
-  padding: 0 20px;
-  font-family: Helvetica, Arial, sans-serif; */
+
   text-decoration: none;
   color: black;
   padding: 0 20px;
@@ -112,57 +83,6 @@ a:hover{
 
 }
 
-/* .section2 {
-    display: flex;
-    margin: 45px;
-    text-align: center;
-}
-.left-image {
-  width: 35%;
-  height: 400px;
-  background: url(./images/flower.png) no-repeat;
-  background-size: 268px 400px;
-  background-position-x: -8px;
-}
-.right-image {
-  width: 65%;
-  height: 400px;
-  background: url(./images/image1.png) no-repeat;
-  margin-left: 50px;
-  background-size: 445px 400px;
-}
-
-.left-image-text1 {
-  color: white;
-  position: absolute;
-  transform: translate(35px, 67px);
-  letter-spacing: 8px;
- 
-  font-size: 23px;
-}
-.left-image-text2 {
-  color: white;
-  position: absolute;
-  transform: translate(42px, 167px);
-  display: flex;
-  letter-spacing: 2px;
-  font-size: 14px;
-  line-height: 2.0;
- 
-
-}
-.left-image-button {
-  color: white;
-  border-color: white;
-  background: none;
-  transform: translate(-84px, 284px);
-  position: absolute;
-  padding: 8px 62px;
-  border-style: solid;
-  border-width: 1px;
-  font-size: 10px;
-
-} */
 
 .section2 {
   display: grid;
@@ -216,10 +136,7 @@ a:hover{
 }
 
 .left-image-button {
-  /* font-size: 10px;
- 
-  border: 1px solid white;
-  position: absolute;*/
+
   transform: translate(29px, 135px); 
   color: white;
   border-color: white;
@@ -257,9 +174,7 @@ svg {
 }
 
 
-/* .section3-testimonial p{
-  font-size: 30px;
-} */
+
 
 .section3-name{
   color: #A8904E;
@@ -299,8 +214,7 @@ svg {
   color: white;
   letter-spacing: 8px;
   position: absolute;
-  /* top: 50px; */
-  /* left: 50px; */
+
   font-size: 25px;
   transform: translate(37px, 64px);
   font-family: 'EB Garamond';
@@ -317,13 +231,12 @@ svg {
 .section4-text2{
   color: white;
   position: absolute;
-  top: 171px;
-  left: 47px;
+  transform: translate(47px,170px);
   display: flex;
   letter-spacing: 3px;
   font-size: 15px;
   line-height: 2.0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'EB Garamond', sans-serif;
 }
 
 .section4 button{
@@ -331,8 +244,7 @@ svg {
   border-color: white;
   font-size: 12px;
   background: none;
-  top: 288px;
-  left: 45px;
+  transform: translate(-71px, 280px);
   position: absolute;
   padding: 8px 35px;
   border-style: solid;
@@ -347,7 +259,7 @@ footer {
   margin: 45px;
   background-color: #A8904E;
   color: white;
-  /* width: 735px; */
+
   height: 137px;
   margin-top: 60px;
   font-family: 'Times New Roman', Times, serif;
@@ -357,7 +269,7 @@ footer {
 
 .footer-section1{
   padding-right: 10px;
-  /* border-right: white solid 1px; */
+
   margin-left: 60px;
   height: 60px;
   transform: translate(-6px, -2px);
@@ -368,7 +280,7 @@ footer {
 
 .footer-section2{
   padding-right: 10px;
-  /* border-right: white solid 1px; */
+
   height: 60px;
   margin-left: 14px;
   
