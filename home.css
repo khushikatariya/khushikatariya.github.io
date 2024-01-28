@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+@import url('https://fonts.cdnfonts.com/css/mytupi');
+
 
 body {
   margin: 0;
@@ -33,13 +36,17 @@ header {
   top: 0;
   background-color: white;
   z-index: 1000;
-  font-family: Helvetica;
+
   height: 42px;
  
 
 
 }
 
+
+header span{
+  margin-left: 2px;
+}
 .title {
   /* color: #A8904E;
   font-size: 11px;
@@ -63,7 +70,10 @@ header {
   font-size: 11px;
   float: right;
   margin-right: 20px;
-   font-family: Helvetica, Arial, sans-serif;
+   
+
+                                                
+   ;
 }
 
 a {
@@ -74,7 +84,7 @@ a {
   text-decoration: none;
   color: black;
   padding: 0 20px;
-  font-family: Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -101,7 +111,7 @@ a:hover{
   line-height: 30px;
   font-family: 'EB Garamond';
   letter-spacing: 13px;
-  transform: translate(215px, 105px);
+  transform: translate(215px, 100px);
 
 }
 
@@ -130,7 +140,7 @@ a:hover{
   position: absolute;
   transform: translate(35px, 67px);
   letter-spacing: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+ 
   font-size: 23px;
 }
 .left-image-text2 {
@@ -141,7 +151,7 @@ a:hover{
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 2.0;
-  font-family: 'Times New Roman', Times, serif;
+ 
 
 }
 .left-image-button {
@@ -154,12 +164,13 @@ a:hover{
   border-style: solid;
   border-width: 1px;
   font-size: 10px;
+
 }
 
 .section5 {
   display: grid;
   grid-template-columns: 239.75px 1fr;
-  gap: 50px;
+  gap: 45px;
   margin-top:45px;
 }
 
@@ -177,7 +188,7 @@ a:hover{
 }
 
 .right-image5 {
-  width: 445.25px;
+  width: 452.25px;
   height: 400px;
   background: url(./images/image1.png) no-repeat;
 
@@ -190,29 +201,39 @@ a:hover{
 .left-image-text25,
 .left-image-button5 {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
+ 
 }
 
 .left-image-text15 {
-  font-size: 23px;
+  font-size: 24px;
   letter-spacing: 8px;
-  transform: translate(30px, 67px);
+  transform: translate(39px, 66px);
 }
 
 .left-image-text25 {
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 2.0;
-  transform: translate(31px, 126px);
+  transform: translate(-1px, 106px);
+  text-align: center;
 }
 
 .left-image-button5 {
-  font-size: 10px;
-  padding: 8px 62px;
+  /* font-size: 10px;
+ 
   border: 1px solid white;
+  position: absolute;*/
+  transform: translate(29px, 135px); 
+  color: white;
+  border-color: white;
+  font-size: 12px;
+  background: none;
+  letter-spacing: 0.5px;
+
   position: absolute;
-  transform: translate(29px, 143px);
+  padding: 8px 62px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 
@@ -319,6 +340,8 @@ a:hover{
   padding: 8px 35px;
   border-style: solid;
   border-width: 1px;
+  letter-spacing: 0.5px;
+
 }
 
 footer {
@@ -332,7 +355,7 @@ footer {
   margin-top: 60px;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 30px;
-  width:745px;
+  width:742px;
 }
 
 .footer-section1{
@@ -384,5 +407,6 @@ footer button{
   border-style: solid;
   padding: 10px 20px;
   font-size: 10px;
-  transform: translate(-44px, 8px);
+  transform: translate(-30px, 8px);
+  letter-spacing: 0.2px;
 }
