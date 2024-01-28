@@ -231,7 +231,7 @@ svg {
 .section4-text2{
   color: white;
   position: absolute;
-  transform: translate(47px,170px);
+ transform: translate(47px,170px);
   display: flex;
   letter-spacing: 3px;
   font-size: 15px;
